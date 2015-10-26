@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use([
     'orionjs:base@1.5.0',
     'orionjs:attributes@1.5.0',
-    'numeral:numeral'
+    'numeral:numeral@1.5.3'
     ]);
 
   api.addFiles('attribute.js');
