@@ -2,6 +2,7 @@ orion.attributes.registerAttribute('rut', {
 template: 'orionAttributesRutInput',
 previewTemplate: 'orionAttributesRegexRutColumn',
 getSchema: function(options) {
+  const numeral = options.numeral
   return {
     type: String,
     regEx: /^0*(\d{1,3}(\.?\d{3})*)\-?([\dkK])$/,
